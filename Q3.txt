@@ -1,0 +1,10 @@
+object Q3{
+def main(args : Array[String]){
+println("cost for sixty copies : Rs."+cost(60));
+}
+def cost(n : Int) : Diuble = {
+var cost : Double = 0;
+cost=n*(24.95*0.6)+3*50+(n-50)*0.75;
+return cost;
+}
+}
